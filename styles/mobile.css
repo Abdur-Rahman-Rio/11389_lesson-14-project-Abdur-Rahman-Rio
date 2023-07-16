@@ -1,0 +1,164 @@
+/*Body Styles*/
+
+body {
+    width: 100%;
+    margin: 0px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: #dddddd;
+}
+
+/*Header Styles*/
+h1 {
+    text-align: center;
+}
+
+#accessh1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #000000;
+    background-color: #dddddd;
+}
+
+#feedback {
+    background: #2d3437 url(../images/Feedback_background.jpg) no-repeat center;
+    background-size: cover;
+    color: #000000;
+/*The contrast error was not changed since the title is legible, but the wave tool does not seem to recognize it as such.*/
+}
+
+#accessibility {
+    background: #2d3437 url(../images/Accessibility_background.jpg) no-repeat center;
+    background-size: cover;
+    color: #000000;
+}
+
+/* Navigation Bar Styles */
+
+nav {
+    padding: 0%;
+    margin: 0%;
+}
+
+nav ul {
+    font-size: 18px;
+    list-style-type: none;
+    background-color: #04354b;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: none;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #0f740f;
+    color: #ffffff;
+}
+
+
+
+.right {
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+
+#home {
+    background-color: rgb(202, 9, 9);
+}
+
+/*Main Styles*/
+main {
+    background-color: #dddddd;
+}
+
+#abtmain {
+    background: url(/images/access-image.jpg) no-repeat center;
+    background-size: cover;
+    margin: auto;
+    font-weight: bold;
+}
+
+.charitieslist {
+    margin-bottom: 7px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li a{
+    text-decoration: none;
+    
+}
+
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    margin-top:40px;
+}
+
+#abtpic {
+    width: 100%;
+}
+
+/*table styles*/
+table, th, td, tr {
+    width: 10px;
+    border: #000000 thin solid ;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+table {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*Form Styles*/
+textarea {
+    width: 80%;
+}
+
+legend {
+    text-align: center;
+}
+
+/*Footer styles*/
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #269e26;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}

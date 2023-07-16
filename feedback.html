@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+<title>Feedback</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Author" content="Abdur-Rahman Syed">
+<meta name="description" content="A page to give feedback on this website.">
+<meta name="keywords" content="Feedback for world crisis website, how to give feedback for world crisis website, how to suggest improvements on the world crisis website, how to suggest improvements on world crisis website, world crisis website contact info">
+<link rel="stylesheet" media="(min-width:700px)" href="styles/desktoptablet.css">
+<link rel="stylesheet" media="(max-width:700px)" href="styles/mobile.css">
+</head>
+<body>
+  <header id="feedback">
+  <!--An id selector was chosen since in can allow me to target the header of the feedback page while not affecting the headings of the other pages.-->
+  <h1>Feedback</h1>
+  <!--The low contrast error was not considered since it seemed to thing that the black and grey in the background was most of the background.-->
+    <nav>
+        <ul>
+          <li id="home"><a href="home.html">Home</a></li>
+          <!--An id selector was chosen to allow me to only select this navigation menu-->
+          <li class="right"><a href="feedback.html">Submit Feedback</a></li>
+          <li class="right"><a href="accessibility.html">Accessibility Statement</a></li>
+          <li class="right"><a href="about.html">About Us & Policy Statement</a></li>
+          <!--A class selector was a better choice, since I wanted to select the three elements to separate them from the main page.-->
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <form name="myForm" action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx" method="post">
+    <h2>Feedback Form</h2>
+    <p>We would love for you to give us feedback on how to improve our site.</p>
+    <h3>Feedback Type</h3>
+    <p>What type of feedback would you like to share? <em>Please select all that apply</em>:</p>
+    <fieldset>
+    <label><input type="checkbox" name="Type" value="Suggestion"> Suggestion on how to improve Accessibility on the website<br></label>
+    <label><input type="checkbox" name="Type" value="Issue"> Issue with the Accessibility of the website<br></label>
+    <label><input type="checkbox" name="Type" value="Comment"> Comments regarding the website<br></label>
+    <label><input type="checkbox" name="Type" value=" other">Other:</label><br>
+    <label>(please specify below)<br><textarea name="Feedbackother" rows="5" cols="25"></textarea></label>
+    <!--The wave error seen, but not changed since it would come out as an html error.-->
+    </fieldset>
+    <fieldset>
+      <legend>Please enter the details of any feedback you have with regards to the website:<br>
+
+            <label>(Please be as descriptive as possible)<br><textarea name="Feedback" rows="5" cols="60"></textarea></label>
+            <!--The wave error seen, but not changed since it would come out as an html error.-->
+      </legend><br>
+      </fieldset>
+      <h3>Satisfaction</h3>
+      <p>How satisfied are you with the quality of this website?</p>
+      <fieldset>
+      <label><input type="radio" name="Satisfaction" value="5 - Very Satisfied"> 5 - Very Satisfied<br></label>
+      <label><input type="radio" name="Satisfaction" value="4"> 4<br></label>
+      <label><input type="radio" name="Satisfaction" value="3"> 3<br></label>
+      <label><input type="radio" name="Satisfaction" value="2"> 2<br></label>
+      <label><input type="radio" name="Satisfaction" value="1"> 1<br></label>
+      <label><input type="radio" name="Satisfaction" value="0 - Very Dissatisfied"> 0 - Very Dissatisfied<br></label>
+    </fieldset>
+    <fieldset>
+      <label><input type="submit" onclick="formSubmit()" value="Submit"></label>
+      <label><input type="reset" onclick="formReset()" value="Reset"></label>
+      <!--I tried to fix the Wave accessibility checker error, but I could not figure out hwo to do so without an error coming in the html checker.-->
+    </fieldset>
+    <!--Both of the labels appeared as errors, but were not changed since they would then come as html errors.-->
+    <p id="messageReset">The form has been successfully reset.</p>
+    <!--An id has been chosen so that the javascript function can work, and so that I can select the form reset sentence to style it-->
+    </form>
+  </main>
+  <footer>
+    <p>Thank you for getting back to us. We will be sure to check the feedback you give.</p>
+    <p>Background photo by <span><a href="https://unsplash.com/photos/ldDmTgf89gU"> Leon Dewiwje</a></span></p>
+    <p>Last Modified- <span id="lastModified"></span></p>
+    <!--An id was chosen so that the javascript works.-->
+  </footer>
+  <script src="scripts/javascript.js"></script>
+</body>
+</html>

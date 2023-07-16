@@ -1,0 +1,171 @@
+/*Body Styles*/
+
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+/*Header Styles*/
+
+header {
+    margin: 0px;
+    text-align: center;
+    height: 150px;
+    padding: 1px;
+    background-color: #dddddd;
+}
+
+h1{
+    font-size: 40px;
+    overflow: hidden;
+}
+
+#accessh1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #000000;
+    background-color: #dddddd;
+}
+
+#feedback {
+    background: #2d3437 url(../images/Feedback_background.jpg) no-repeat center;
+    background-size: cover;
+    color: #000000;
+    /*The contrast error was not changed since the title is legible, but the wave tool does not seem to recognize it as such.*/
+  }
+  #accessibility {
+    background: #2d3437 url(../images/Accessibility_background.jpg) no-repeat center;
+    background-size: cover;
+    color: #000000;
+}
+
+/* Navigation Bar Styles */
+
+nav {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    padding-top: 30px;
+}
+
+nav ul {
+    font-size: 18px;
+    list-style-type: none;
+    background-color: #04354b;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #0f740f;
+    color: #ffffff;
+}
+
+.right {
+    float: right;
+}
+
+#home {
+    background-color: rgb(202, 9, 9);
+}
+
+/*Main*/
+main {
+    background-color: #dddddd;
+}
+
+h2 {
+    margin-top:40px;
+    font-size: 26px;
+}
+
+main li, p {
+    font-size: 17px;
+}
+
+#abtmain {
+    background: url(/images/access-image.jpg) no-repeat center;
+    background-size: cover;
+    margin: auto;
+    font-weight: bold;
+}
+
+
+#abtpic {
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    
+}
+
+.charitieslist {
+    margin-bottom: 7px;
+}
+
+
+/*table styles*/
+table, th, td, tr {
+    width: auto;
+    border: #000000 thin solid ;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 5px;
+}
+
+
+table {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*Form Styles*/
+form {
+    background-color: #dddddd;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 5px 10px;
+}
+
+#messageReset {
+    visibility: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 2px;
+}
+
+/*Footer styles*/
+
+footer {
+    font-size: 17px;
+    padding: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}

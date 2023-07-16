@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+<title>Accessibility</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Author" content="Abdur-Rahman Syed">
+<meta name="description" content="A page about the accessibility statement of the world crisis website.">
+<meta name="keywords" content="world crisis web accessibility, what is the accessibility of the world crisis website like, accessibility features for site about poverty, accessibility features for site about hunger, accessibility features for site about homelessness">
+<link rel="stylesheet" media="(min-width:700px)" href="styles/desktoptablet.css">
+<link rel="stylesheet" media="(max-width:700px)" href="styles/mobile.css">
+</head>
+<body>
+  <header id="accessibility">
+  <!--The id selector was chosen to apply the specific background-->  
+  <h1 id="accessh1">Accessibility Statement</h1>
+  <!--An id was chosen to target only this page's level one leading-->
+    <nav>
+        <ul>
+          <li id="home"><a href="home.html">Home</a></li>
+          <!--An id selector was chosen to allow me to only select this navigation menu-->
+          <li class="right"><a href="feedback.html">Submit Feedback</a></li>
+          <li class="right"><a href="accessibility.html">Accessibility Statement</a></li>
+          <li class="right"><a href="about.html">About Us & Policy Statement</a></li>
+          <!--A class selector was a better choice, since I wanted to select the three elements to separate them from the main page.-->
+        </ul>
+    </nav>
+  </header>
+  <main>
+  <h2>Our Mission</h2>
+  <p>We hope to create a website that is accessibility to everyone, so everyone can contribute to ending world poverty. Below is a table of some barriers that some of us face, and what the web developer of this site has done to address the issues.</p>
+  <table>
+    <tr>
+        <th>
+           Barrier
+        </th>
+        <th>
+            Challenges
+        </th>
+        <th>
+            What we did
+        </th>
+    </tr>
+    <tr>
+        <td>
+          Auditory
+        </td>
+        <td>
+          Some content such as videos can pose a challenge if there are no subtitles or transcripts available.
+        </td>
+        <td>
+          We made sure all of our content can be accessed through reading without sound.
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Visual
+        </td>
+        <td>
+          It can be hard to see colors that have a low color contrast, and smaller font can also be hard to read.
+        </td>
+        <td>
+          We used an accessibility checker to make sure our color contrast passes the regulations.
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Physical
+        </td>
+        <td>
+          A number of challenges can occur, such as unable to click small links and having a hard time with navigation menus.
+        </td>
+        <td>
+          We made sure our site has a simple navigation, and that background for the links in the navigation menu change color.
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Cognitive/<br>Neurological
+        </td>
+        <td>
+          Complex menu layouts can create problems with navigation and long paragraphs without pictures.
+        </td>
+        <td>
+          We made sure to include pictures and to make our navigation simple.
+        </td>
+    </tr>
+  </table>
+  </main>
+  <footer>
+    <a href="feedback.html">We would love to hear back from you on the accessibility and user friendliness of our site. You can click here to leave feedback.</a>
+    <p>Background photo by <span><a href="https://unsplash.com/photos/gRTzhQsiVG0"> Yomex Owo</a></span></p>
+    <p>Last Modified- <span id="lastModified"></span></p>
+    <!--An id was chosen so that the javascript works-->
+  </footer>
+  <script src="scripts/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+<title>About Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Author" content="Abdur-Rahman Syed">
+<meta name="description" content="A page about the mission and policy statement of a website regarding poverty and hunger.">
+<meta name="keywords" content="World crisis policy statement, world crisis mission, what does the world crisis page hope to accomplish, policy statement of world crisis, policy statement of world crisis">
+<link rel="stylesheet" media="(min-width:700px)" href="styles/desktoptablet.css">
+<link rel="stylesheet" media="(max-width:700px)" href="styles/mobile.css">
+</head>
+<body>
+  <header>
+  <h1>About Us</h1>  
+    <nav>
+        <ul>
+          <li id="home"><a href="home.html">Home</a></li>
+          <!--An id selector was chosen to allow me to only select this navigation menu-->
+            <li class="right"><a href="feedback.html">Submit Feedback</a></li>
+            <li class="right"><a href="accessibility.html">Accessibility Statement</a></li>
+            <li class="right"><a href="about.html">About Us & Policy Statement</a></li>
+            <!--A class selector was a better choice, since I wanted to select the three elements to separate them from the main page.-->
+        </ul>
+    </nav>
+  </header>
+  <main id="abtmain">
+  <!--An id was chosen to select the main element of the about page to give it a special background image.-->  
+  <h2>
+    Our Mission & Policy
+  </h2>
+  <p>The reason for creating this webpage is to inform people about the difficulties and challenges that other people face, and to get help for the less fortunate. Please share this webpage, and donate to help!</p>
+  <img src="images/Abtpicture.jpg" width="400" alt="picture of a poor boy smiling" id="abtpic">
+  <!--The id element was chosen so that only this picture is changed.-->
+  <small>Picture by <span><a href="https://www.pexels.com/photo/a-boy-smiling-while-holding-a-tire-and-a-stick-11588123/">Safari Consoler</a></span></small>
+  </main>
+  <footer>
+    <a href="feedback.html">We would love to hear back from you on the accessibility and user friendliness of our site. You can click here to leave feedback.</a>
+    <p>Last Modified- <span id="lastModified"></span></p>
+    <!--An id was chosen so that the javascript works-->
+  </footer>
+  <script src="scripts/javascript.js"></script>
+</body>
+</html>
